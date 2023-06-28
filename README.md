@@ -31,9 +31,9 @@ Note: You must have 2 mints in order to send/swap between mints.
 
 <h3>Q: Is there a list of mints?</h3>
 
-A: There are 2 test mints: 
+A: There are 2 mints associated by default with Cashu.me and Nutstash: 
 <ul>
-    <li> Cashu.me - https://8333.space:3338 </li>
+    <li>Cashu.me - https://8333.space:3338 </li>
      <li>Nutstash - https://legend.lnbits.com/cashu/api/v1/4gr9Xcmz3XEkUNwiBiQGoC </li>
 </ul>
 You can see the complete list of mints here: https://mintindex.gandlaf.com 
@@ -69,6 +69,14 @@ A: In Cashu.me, if you send a token that is a power of 2, you will see a QR code
 
 A: This varies depending on the mint. 
 
+<h3>Q: Why can't I pay a Lightning invoice from my Cashu ecash wallet? </h3>
+
+A: There can be several reasons:
+<ul>
+    <li>On the Lightning network, sometimes there are network or routing issues when sending a Lightning payment. As with other Lightning payments, try again later.
+    <li>There may be a liquidity inbalance with the receiving node. </li>
+</ul>
+
 <h2>WALLET BACKUPS</h2>
 
 <b>CAUTION:</b> Your current backup is invalid if you make additional transactions.  Re-do the backup to get a backup of current wallet state.
@@ -88,7 +96,7 @@ A: Wallet backups are only for that particular wallet implementation. To move yo
 
 <h3>Q: How do I configure nostr?</h3>
 
-A:  For Nutstash: Go to the Settings tab to configure Nostr. Use an external key or generate throwaway nostr keys. When you send tokens, you can then specify a Nostr pubkey. 
+A:  For Nutstash: Go to the Settings tab to configure Nostr. Use an external key or generate throwaway nostr keys. When you send tokens, you can then specify a Nostr pubkey. <p>
     For Nutshell: Follow the Github instructions to configure Nostr by editing the .env file, then send tokens to a Nostr pubkey.
 
 <h2>GENERAL PRIVACY QUESTIONS</h2>
