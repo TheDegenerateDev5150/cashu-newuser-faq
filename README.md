@@ -49,8 +49,7 @@ A: Yes, this is a common first test use case.  Also, sometimes you might send a 
 <h3>Q: How can I run my own mint?</h3>
 
 A: There are several ways depending on your needs:
-<ul>
-   
+<ul>  
     <li>On legends.lnbits.com by enabling the Cashu extension and creating a New Mint</li>
     <li>On your own LNbits instance by installing the Cashu extension and creating a New Mint</li>
      <li>With Nutshell https://github.com/cashubtc/cashu</li>
