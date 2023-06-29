@@ -46,6 +46,17 @@ A: The easiest way to set up your own mint is in LNbits Cashu on the legends.lnb
 
 A: Yes, this is a common first test use case.  Also, sometimes you might send a token that is not received or redeemed, and you might want to copy the token and receive it back to yourself.
 
+<h3>Q: How can I run my own mint?</h3>
+
+A: There are several ways depending on your needs:
+<ul>
+   
+    <li>On legends.lnbits.com by enabling the Cashu extension and creating a New Mint</li>
+    <li>On your own LNbits instance by installing the Cashu extension and creating a New Mint</li>
+     <li>With Nutshell https://github.com/cashubtc/cashu</li>
+</ul>
+
+
 
 <h2>RECEIVING TOKENS</h2>
 
