@@ -1,9 +1,5 @@
 # Frequently Asked Questions (FAQs)
 
-## TUTORIALS
-
-BTC Sessions-Cashu and Nutstash Wallets: https://www.youtube.com/watch?v=riTRD0BdMDI
-
 ## MINTS
 
 **CAUTION:** Choose Mints where you trust or know and trust the operator.  Use small amounts or immediately redeem tokens or swap tokens to your own mint.
@@ -35,20 +31,21 @@ Yes, this is a common first test use case.  Also, sometimes you might send a tok
 ### How can I run my own mint?
 
 There are several ways depending on your needs:
+
 * On legends.lnbits.com by enabling the Cashu extension and creating a New Mint
 * On your own LNbits instance by installing the Cashu extension and creating a New Mint
 * With Cashu Nutshell, see https://github.com/cashubtc/cashu 
 
-## RECEIVING TOKENS
+
+## WALLETS
+
+**CAUTION:** Do not open the same wallet in multiple browser tabs.
 
 ###  What if I don't trust a mint and dont't want receive to a Cashu wallet?
 
  You can redeem your tokens immediately via Lightning invoice on: https://redeem.cashu.me/
 
-## WALLETS
-    
-**CAUTION:** Do not open the same wallet in multiple browser tabs.
- 
+
 ###  I have had pending tokens for quite some time, how do I resolve this?
 
  You can receive the tokens back to your own wallet. Check the History for the token to receive back into your wallet.
@@ -60,6 +57,7 @@ There are several ways depending on your needs:
 ### Do invoices generated from Cashu or Nutstash expire?
 
  This varies depending on the mint. 
+
 
 ###  Why can't I pay a Lightning invoice from my Cashu ecash wallet? 
 
@@ -93,7 +91,9 @@ There are several ways depending on your needs:
 
 ### How does the Cashu ecash protocol implement privacy?
 
- See http://lconf.gandlaf.com or https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s for an introduction to the Cashu protocol. Or read the Cashu NUTs (Notation, Usage, Terminology) in Github here: https://github.com/cashubtc/nuts
+ For an instroduction to privacy in the Cashu protocol, see http://lconf.gandlaf.com or https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s . 
+ 
+ You can also read the Cashu NUTs (Notation, Usage, Terminology) in Github here: https://github.com/cashubtc/nuts
 
 ### Are there user accounts in the Cashu protocol?
 
@@ -107,7 +107,7 @@ There are several ways depending on your needs:
 
  No, the mint does not know the Cashu ecash secret or unblinded signature (see Nut-0 in Github https://github.com/cashubtc/nuts/blob/main/00.md). Therefore, there is no linkability between a Lightning invoice and Cashu ecash.  
 
-## UPDATING
+## UPDATING LNBITS
 
 ### How do I update Cashu when LNBits or Cashu on LNBits have an update?
 1. Download a current Cashu wallet backup as a precaution.
@@ -116,4 +116,3 @@ https://github.com/lnbits/lnbits/wiki/LNbits-Documentation#install-options
 
 3. To re-install Cashu (after LNbits update) or update Cashu, follow the update instructions here:
 https://github.com/lnbits/lnbits/wiki/LNbits-Extensions
-    
