@@ -92,7 +92,7 @@ There are several ways depending on your needs:
 
 ### How does the Cashu ecash protocol implement privacy?
 
- For an introduction to privacy in the Cashu protocol, see [Hide Your Nuts](http://lconf.gandlaf.com) or [Blinding Customdians with Cashu](https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s).  
+ For an introduction to privacy in the Cashu protocol, see [Hide Your Nuts](http://lconf.gandlaf.com) or [Blinding Custodians with Cashu](https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s).  
  
  You can also read the [Cashu NUTs](https://github.com/cashubtc/nuts) (Notation, Usage, Terminology).
 
