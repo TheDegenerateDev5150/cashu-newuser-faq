@@ -1,145 +1,116 @@
-<h1>CASHU - NEW USER FREQUENTLY ASKED QUESTIONS (FAQs)</h1>
 
-![alt text](https://github.com/findingsov/cashu-newuser-faq/blob/main/CashuImg.png "Logo Title Text 1")
+# Frequently Asked Questions (FAQs)
 
-<h2>TUTORIALS</h2>
+## MINTS
 
-BTC Sessions-Cashu and Nutstash Wallets: https://www.youtube.com/watch?v=riTRD0BdMDI
+**CAUTION:** Choose Mints where you trust or know and trust the operator.  Use small amounts or immediately redeem tokens or swap tokens to your own mint.
 
-If you want to use this FAQ in https://chatpdf.com, simply drag the cashu-newuser-faq
-.pdf file to the chatPDF site.
+### Why can't I receive tokens from one mint into another mint?
 
-<b>CAUTION</b>: Use small amounts on all mints.
+You cannot receive tokens from one mint into another mint.  To transfer tokens from one mint to another, use the Intermint Swap functionality. 
 
-<h2>MINTS</h2>
+### How to I send (swap) tokens from one mint to another?
 
-<b>CAUTION:</b> Choose Mints where you trust or know and trust the operator.  Use small amounts or immediately redeem tokens or swap tokens to your own mint.
-
-<h3>Q: Why can't I receive tokens from one mint into another mint or my own mint?</h3>
-
-A: You cannot receive tokens from one mint into another mint.  To transfer tokens from one mint to another, use the Intermint Swap functionality. 
-
-<h3>Q: How to I send (swap) tokens from one mint to another?</h3>
-
-A: Use Intermint Swap functionality, which operates via Lightning invoices under the hood.
-<ul>
-    <li> Cashu.me - go to the Settings tab.</li>
-     <li> Nutstash - go to the Mint tab. </li>
-</ul>
+Use Intermint Swap functionality, which operates via Lightning invoices under the hood.
+* Cashu.me: On the Settings tab.
+* Nutstash: On the Mint tab. 
 
 Note: You must have 2 mints in order to send/swap between mints.
 
-<h3>Q: Is there a list of mints?</h3>
+### Is there a list of mints?
 
-A: There are 2 mints associated by default with Cashu.me and Nutstash: 
-<ul>
-    <li>Cashu.me - https://8333.space:3338 </li>
-     <li>Nutstash - https://legend.lnbits.com/cashu/api/v1/4gr9Xcmz3XEkUNwiBiQGoC </li>
-</ul>
+There are 2 mints associated by default with Cashu.me and Nutstash: 
+* Cashu.me:  https://8333.space:3338 
+* Nutstash:  https://legend.lnbits.com/cashu/api/v1/4gr9Xcmz3XEkUNwiBiQGoC 
+
 You can see the complete list of mints here: https://mintindex.gandlaf.com 
 
-<h3>Q: How do I set up my own mint?</h3>
+### Can I send and receive tokens to/from the same mint?
 
-A: The easiest way to set up your own mint is in LNbits Cashu on the legends.lnbits.com server or on your own LNbits instance. You can also set up your own mint via the Nutshell tool--see Github for instructions.
+Yes, this is a common first test use case.  Also, sometimes you might send a token that is not received or redeemed, and you might want to copy the token and receive it back to yourself.
 
-<h3>Q: Can I send and receive tokens to/from the same mint?</h3>
+### How can I run my own mint?
 
-A: Yes, this is a common first test use case.  Also, sometimes you might send a token that is not received or redeemed, and you might want to copy the token and receive it back to yourself.
+There are several ways depending on your needs:
+* On legends.lnbits.com by enabling the Cashu extension and creating a New Mint
+* On your own LNbits instance by installing the Cashu extension and creating a New Mint
+* With Cashu Nutshell, see https://github.com/cashubtc/cashu 
 
-<h3>Q: How can I run my own mint?</h3>
+## RECEIVING TOKENS
 
-A: There are several ways depending on your needs:
-<ul>  
-    <li>On legends.lnbits.com by enabling the Cashu extension and creating a New Mint</li>
-    <li>On your own LNbits instance by installing the Cashu extension and creating a New Mint</li>
-     <li>With Nutshell https://github.com/cashubtc/cashu</li>
-</ul>
+###  What if I don't trust a mint and dont't want receive to a Cashu wallet?
 
+ You can redeem your tokens immediately via Lightning invoice on: https://redeem.cashu.me/
 
-
-<h2>RECEIVING TOKENS</h2>
-
-<h3>Q: What if I do not want to trust a mint and receive to a Nutstash, Cashu.me, or other wallet?</h3>
-
-A: You can redeem your tokens immediately via Lightning invoice on: https://redeem.cashu.me/
-
-<h2>WALLETS</h2>
+## WALLETS
     
-<b>CAUTION:</b> Do not open the same wallet in multiple browser tabs.
+**CAUTION:** Do not open the same wallet in multiple browser tabs.
  
-<h3>Q: I have had pending tokens for quite some time, how do I resolve this?</h3>
+###  I have had pending tokens for quite some time, how do I resolve this?
 
-A: You can receive the tokens back to your own wallet. Check the History for the token to receive back into your wallet.
+ You can receive the tokens back to your own wallet. Check the History for the token to receive back into your wallet.
 
-<h3>Q:  Can I get a QR code for a token?</h3>
+###  Can I get a QR code for a token?
 
-A: In Cashu.me, if you send a token that is a power of 2, you will see a QR code (e.g., 2, 4, 8, 16, 32, 64, 128, etc). This is because only 1 token can fit in a QR code.
+ In Cashu.me, if you send a token that is a power of 2, you will see a QR code (e.g., 2, 4, 8, 16, 32, 64, 128, etc). This is because only 1 token can fit in a QR code.
 
-<h3>Q: Do invoices generated from Cashu or Nutstash expire?</h3>
+### Do invoices generated from Cashu or Nutstash expire?
 
-A: This varies depending on the mint. 
+ This varies depending on the mint. 
 
-<h3>Q: Why can't I pay a Lightning invoice from my Cashu ecash wallet? </h3>
+###  Why can't I pay a Lightning invoice from my Cashu ecash wallet? 
 
-A: There can be several reasons:
-<ul>
-    <li>On the Lightning network, sometimes there are network or routing issues when sending a Lightning payment. As with other Lightning payments, try again later.
-    <li>There may be a liquidity inbalance with the receiving node. </li>
-</ul>
+ There can be several reasons:
+* On the Lightning network, sometimes there are network or routing issues when sending a Lightning payment. As with other Lightning payments, try again later. 
+* There may be a liquidity inbalance with the receiving node. 
 
-<h2>WALLET BACKUPS</h2>
+## WALLET BACKUPS
 
-<b>CAUTION:</b> Your current backup is invalid if you make additional transactions.  Re-do the backup to get a backup of current wallet state.
+**CAUTION** Your current backup is invalid if you make additional transactions.  Re-do the backup to get a backup of current wallet state.
 
-<h3>Q: How do I make a backup and restore?</h3>
-A:  Backup and restore mechanisms are specific to each particular wallet.
-<ul>
-     <li> Nutstash - go to the Settings tab. </li>
-    <li> Cashu.me - go to the Welcome page and make a Backup.  You can then open a new browser and drop the Backup JSON file on the Welcome screen.  </li>
-</ul>
+###  How do I make a backup and restore?
 
-<h3>Q: Why can't I restore my cashu.me backup into Nutstash? </h3>
+  Backup and restore mechanisms are specific to each particular wallet.
+* Nutstash: On the Settings tab
+* Cashu.me: On the Welcome page. make a Backup.  You can then open a new browser and drop the Backup JSON file on the Welcome screen.  
 
-A: Wallet backups are only for that particular wallet implementation. To move your ecash to another wallet implementation, send the ecash from wallet to wallet or via Lightning withdrawal and minting.
+### Why can't I restore my cashu.me backup into Nutstash? 
 
-<h2>NOSTR</h2>
+ Wallet backups are only for that particular wallet implementation. To move your ecash to another wallet implementation, send the ecash from wallet to wallet or via Lightning withdrawal and minting.
 
-<h3>Q: How do I configure nostr?</h3>
+## NOSTR
 
-A:  For Nutstash: Go to the Settings tab to configure Nostr. Use an external key or generate throwaway nostr keys. When you send tokens, you can then specify a Nostr pubkey. <p>
-    For Nutshell: Follow the Github instructions to configure Nostr by editing the .env file, then send tokens to a Nostr pubkey.
+### How do I configure nostr?
 
-<h2>GENERAL PRIVACY QUESTIONS</h2>
+* Nutstash: On the Settings tab, configure Nostr. Use an external key or generate throwaway nostr keys. When you send tokens, you can then specify a Nostr pubkey. 
 
-<h3>Q: How does the Cashu ecash protocol implement privacy?</h3>
+* Nutshell: Follow the Github instructions to configure Nostr by editing the .env file. You can then send tokens to a Nostr pubkey.
 
-A: See http://lconf.gandlaf.com or https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s for an introduction to the Cashu protocol. Or read the Cashu NUTs (Notation, Usage, Terminology) in Github here: https://github.com/cashubtc/nuts
+## GENERAL PRIVACY QUESTIONS
 
-<h3>Q: Are there user accounts in the Cashu protocol?</h3>
+### How does the Cashu ecash protocol implement privacy?
 
-A: No.
+ See http://lconf.gandlaf.com or https://www.youtube.com/watch?v=UNjVc-WYdgE&t=105s for an introduction to the Cashu protocol. Or read the Cashu NUTs (Notation, Usage, Terminology) in Github here: https://github.com/cashubtc/nuts
 
-<h3>Q: Can the Mint see my IP address when I use Nutstash or Cashu.me Web wallets?</h3>
+### Are there user accounts in the Cashu protocol?
 
-A: If you are not using Tor or a VPN, the Mint could see your IP address.
+ No.
 
-<h3>Q: Can I use Tor with Nutstash and Cashu.me Web wallets?</h3>
+### Can the Mint see my IP address when I use Nutstash or Cashu.me Web wallets?
 
-A: To use Tor with Nutstash or Cashu.me, you need to Remember History and set up an exception in Manage Exceptions for the checked Delete cookies and site data when Tor Browser is closed. 
-When using Nutshell, Tor is started if your .env file has set the setting TOR=TRUE.
+ If you are not using a VPN, the Mint could see your IP address.
 
-<h3>Q: Are mints able to track ecash wallets by storing the payment_hash when a user receives a Lightning payment?</h3>
+### Are mints able to track ecash wallets by storing the payment_hash when a user receives a Lightning payment?
 
-A: No, the mint does not know the Cashu ecash secret or unblinded signature (see Nut-0 in Github https://github.com/cashubtc/nuts/blob/main/00.md). Therefore, there is no linkability between a Lightning invoice and Cashu ecash.  
+ No, the mint does not know the Cashu ecash secret or unblinded signature (see Nut-0 in Github https://github.com/cashubtc/nuts/blob/main/00.md). Therefore, there is no linkability between a Lightning invoice and Cashu ecash.  
 
-<h2>UPDATING</h2>
+## UPDATING
 
-<h3>Q: How do I update Cashu when LNBits or Cashu on LNBits have an update?</h3>
-A:  First, download a current Cashu wallet backup as a precaution.
-LNbits: To update LNBits, follow the update instructions here:
+### How do I update Cashu when LNBits or Cashu on LNBits have an update?
+1. Download a current Cashu wallet backup as a precaution.
+2. To update LNBits, follow the update instructions here:
 https://github.com/lnbits/lnbits/wiki/LNbits-Documentation#install-options
 
-Cashu: To re-install (after LNbits update) or update Cashu, follow the update instructions here:
+3. To re-install Cashu (after LNbits update) or update Cashu, follow the update instructions here:
 https://github.com/lnbits/lnbits/wiki/LNbits-Extensions
     
-
