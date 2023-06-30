@@ -23,7 +23,7 @@ There are 2 mints associated by default with Cashu.me and Nutstash:
 * Cashu.me:  https://8333.space:3338 
 * Nutstash:  https://legend.lnbits.com/cashu/api/v1/4gr9Xcmz3XEkUNwiBiQGoC 
 
-You can see the complete list of mints on [MINTINDEX - Find a cashu mint](https://mintindex.gandlaf.com)
+Some other publically-shared mints are here: [MINTINDEX - Find a cashu mint](https://mintindex.gandlaf.com)
 
 ### Can I send and receive tokens to/from the same mint?
 
