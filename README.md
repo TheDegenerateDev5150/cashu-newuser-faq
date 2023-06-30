@@ -42,7 +42,7 @@ There are several ways depending on your needs:
 
 **CAUTION:** Do not open the same wallet in multiple browser tabs.
 
-###  What if I don't trust a mint and dont't want receive to a Cashu wallet?
+###  What if I don't trust a mint and don't want receive to a Cashu wallet?
 
  You can redeem your tokens immediately via Lightning invoice at https://redeem.cashu.me/
 
@@ -64,7 +64,7 @@ There are several ways depending on your needs:
 
  There can be several reasons:
 * On the Lightning network, sometimes there are network or routing issues when sending a Lightning payment. As with other Lightning payments, try again later. 
-* There may be a liquidity inbalance with the receiving node. 
+* There may be a liquidity imbalance with the receiving node. 
 
 ## Walllet Backups
 
