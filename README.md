@@ -1,8 +1,8 @@
+# Frequently Asked Questions (FAQs)
+
 ## TUTORIALS
 
 BTC Sessions-Cashu and Nutstash Wallets: https://www.youtube.com/watch?v=riTRD0BdMDI
-
-# Frequently Asked Questions (FAQs)
 
 ## MINTS
 
